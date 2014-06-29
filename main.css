@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    line-height: auto;
+}
+h1 {
+    margin: 0;
+}
+.firstWrap,
+.secondWrap,
+.thirdWrap,
+.fourthWrap {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    clear: both;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src = '/assets/responsive/home-firstfold-bg-new.jpg', sizingMethod = 'scale');
+    height: 800px;
+}
+.firstWrap {
+    background: url("../img/bcg_slide-1.jpg") 0 0 no-repeat fixed;
+}
+.secondWrap {
+    background: url("../img/bcg_slide-2.jpg") 0 0 no-repeat fixed;   
+}
+.thirdWrap {
+    background: url("../img/bcg_slide-3.jpg") 0 0 no-repeat fixed;
+}
+.fourthWrap {
+    background: url("../img/bcg_slide-4.jpg") 0 0 no-repeat fixed;
+}
+
+.subWrap {
+    width: 620px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.subWrap > div {
+    padding: 20px;
+    background: #CCC;
+}
